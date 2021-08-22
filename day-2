@@ -1,0 +1,60 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled9.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyP52KIr727wCYGW4xD3vycx",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sreejachinthamreddy/LetsUpgrade_Daily_Assignments/blob/main/day-2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ajTJcrdoEgb2",
+        "outputId": "b62b8e4f-9ddc-4fd5-91b2-188b17b999a7"
+      },
+      "source": [
+        "from collections import Counter\n",
+        "  \n",
+        "\n",
+        "test_str = input()\n",
+        "res = Counter(test_str)\n",
+        "print (str(res))\n"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "sree vidya\n",
+            "Counter({'e': 2, 's': 1, 'r': 1, ' ': 1, 'v': 1, 'i': 1, 'd': 1, 'y': 1, 'a': 1})\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
